@@ -111,7 +111,7 @@ h5 {
 #locations {
     height: 500px;
     max-width: 1200px;
-    background-image: url(/Images/img-locations-background.jpg);
+    background-image: url(Images/img-locations-background.jpg);
     background-position: right;
     display: flex;
     flex-direction: column;
