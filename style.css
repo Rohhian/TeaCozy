@@ -66,10 +66,20 @@ main {
 h2 {
     font-size: 1.5rem;
     padding: 10px;
+    background-color: transparent;
+}
+
+h3 {
+    font-size: 1.17rem;
 }
 
 h4 {
     font-size: 1rem;
+    padding: 10px;
+}
+
+h5 {
+    font-size: 0.83rem;
     padding: 10px;
 }
 
@@ -96,4 +106,50 @@ h4 {
 
 #pictures h4 {
     padding: 0;
+}
+
+#locations {
+    height: 500px;
+    max-width: 1200px;
+    background-image: url(/Images/img-locations-background.jpg);
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#locboxes {
+    display: flex;
+    opacity: 1;
+    background-color: transparent;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.loc {
+    height: auto;
+    width: 300px;
+    margin: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#theend1 {
+    height: 200px;
+}
+
+#copyright {
+    margin-left: 20px;
+    align-self: flex-start;
 }
